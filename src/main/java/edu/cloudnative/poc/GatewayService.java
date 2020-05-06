@@ -1,15 +1,10 @@
 package edu.cloudnative.poc;
 
-import java.security.SecureRandom;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 import java.util.concurrent.atomic.LongAdder;
 
-import javax.crypto.Cipher;
-import javax.crypto.KeyGenerator;
-import javax.crypto.SecretKey;
-import javax.crypto.spec.IvParameterSpec;
 import javax.enterprise.context.ApplicationScoped;
 
 @ApplicationScoped
